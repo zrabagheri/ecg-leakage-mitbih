@@ -1,0 +1,3 @@
+raw/
+*.pkl
+__pycache__/

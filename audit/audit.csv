@@ -1,0 +1,20 @@
+id,first_author,year,venue,split,oversampling_aug,normalisation_fs,model_selection,r_peaks,headline_acc,inter_patient_reported,url
+1,Albarrak,2025,Sensors,random (80/20; patient grouping not reported),before split (undersampling),all data (before split),validation (set not described),detector (unnamed),97.0,no,https://mdpi.com/1424-8220/25/19/5976
+2,Ikram,2025,Frontiers in Medicine,not reported,timing not reported,not reported,not reported,not reported,97.0,no,https://www.frontiersin.org/articles/10.3389/fmed.2025.1600855/full
+3,Qi,2024,Applied Sciences,random beat-level (9:1),after split,not reported,validation,reference annotations,99.09,no,https://www.mdpi.com/2076-3417/14/23/11202
+4,Huang,2026,Frontiers in Physiology,not reported (5-fold CV),none,not reported,not reported,not reported,98.97,no,https://www.frontiersin.org/articles/10.3389/fphys.2026.1800941
+5,He,2025,Frontiers in Cardiovascular Medicine,not reported,timing not reported (augmentation),not reported,not reported,detector (Pan-Tompkins),94.41,no,https://www.frontiersin.org/articles/10.3389/fcvm.2024.1473482/full
+6,Song,2026,arXiv preprint,random beat-level (stratified),timing not reported (GAN),per-beat,validation,reference annotations,98.2,no,https://arxiv.org/html/2602.17701v1
+7,Busia,2024,IEEE TBioCAS (arXiv),random beat-level (shuffled),timing not reported (noise augmentation),not reported,validation (preprocessing ablation on test),reference annotations,99.05,no,https://arxiv.org/html/2402.10748v2
+8,Akan,2024,arXiv preprint,not reported (pre-segmented Kaggle set),none,not reported,validation,pre-segmented Kaggle,98.0,no,https://arxiv.org/pdf/2401.05434
+9,Singh,2026,arXiv preprint,random (80/20 stratified),timing not reported (SMOTE-ENN),not reported,test set,detector (ensemble),98.44,no,https://arxiv.org/html/2601.00192v1
+10,Tran,2026,arXiv preprint,random beat-level (70/30),none,train only,test set (inferred),detector (Pan-Tompkins),97.18,no,https://arxiv.org/pdf/2607.09680
+11,Elsheikhy,2025,Sensors,random beat-level (shuffled 60/20/20),none,not reported,validation,not reported,99.18,no,https://mdpi.com/1424-8220/25/17/5542
+12,Xiong,2025,Bioengineering,random beat-level,after split,per-beat,validation,reference annotations,99.46,no,https://www.mdpi.com/2306-5354/12/11/1268
+13,Ammar,2025,Algorithms,not reported (80/20),not reported,not reported,validation,pre-segmented (188-sample beats),98.8,no,https://www.mdpi.com/1999-4893/18/11/674
+14,Elgazzar,2026,Applied Sciences,random beat-level (68/12/20); inter-patient as secondary,after split,per-recording,validation,reference annotations,99.18,yes (82.81% acc; macro-F1 38.23%),https://www.mdpi.com/2076-3417/16/11/5321
+15,Zhao,2025,Sensors,random beat-level (intra-patient stated),after split,per-segment,validation,not reported,99.80,no,https://www.mdpi.com/1424-8220/25/13/3928
+16,Gader,2025,IEEE conference,random beat-level (75/25 stratified),none,not reported,validation,detector (XQRS),99.0,no,https://orbi.umons.ac.be/bitstream/20.500.12907/53497/1/Gader2025239306%20(1).pdf
+17,Zaky,2026,Ingenierie des Systemes d'Information,random beat-level (intra-patient stated),after split,not reported,validation,not reported (fixed windows),98.77,no,https://iieta.org/journals/isi/paper/10.18280/isi.310906
+18,Kwak,2024,PeerJ Computer Science,random (80/10/10),after split,per-beat,not reported,reference and detector compared,97.97,no,https://peerj.com/articles/cs-2299
+19,Seenivasan,2025,Information Technology and Control,not reported (80/20 of beats),before split (SMOTE),not reported,not reported,reference annotations,99.2,no,https://itc.ktu.lt/index.php/ITC/article/view/41549/17749

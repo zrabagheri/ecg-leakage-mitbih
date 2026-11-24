@@ -1,0 +1,20 @@
+First author,Year,Venue,Split,Oversampling / augmentation,Model selection,R peaks,Accuracy (%)
+Albarrak [20],2025,Sensors,random (80/20; patient grouping not reported),before split (undersampling),validation (set not described),detector (unnamed),97.0
+Ikram [21],2025,Frontiers in Medicine,not reported,timing not reported,not reported,not reported,97.0
+Qi [22],2024,Applied Sciences,random beat-level (9:1),after split,validation,reference annotations,99.09
+Huang [23],2026,Frontiers in Physiology,not reported (5-fold CV),none,not reported,not reported,98.97
+He [24],2025,Frontiers in Cardiovascular Medicine,not reported,timing not reported (augmentation),not reported,detector (Pan-Tompkins),94.41
+Song [25],2026,arXiv preprint,random beat-level (stratified),timing not reported (GAN),validation,reference annotations,98.2
+Busia [26],2024,IEEE TBioCAS (arXiv),random beat-level (shuffled),timing not reported (noise augmentation),validation (preprocessing ablation on test),reference annotations,99.05
+Akan [27],2024,arXiv preprint,not reported (pre-segmented Kaggle set),none,validation,pre-segmented Kaggle,98.0
+Singh [28],2026,arXiv preprint,random (80/20 stratified),timing not reported (SMOTE-ENN),test set,detector (ensemble),98.44
+Tran [29],2026,arXiv preprint,random beat-level (70/30),none,test set (inferred),detector (Pan-Tompkins),97.18
+Elsheikhy [30],2025,Sensors,random beat-level (shuffled 60/20/20),none,validation,not reported,99.18
+Xiong [4],2025,Bioengineering,random beat-level,after split,validation,reference annotations,99.46
+Ammar [31],2025,Algorithms,not reported (80/20),not reported,validation,pre-segmented (188-sample beats),98.8
+Elgazzar [19],2026,Applied Sciences,random beat-level (68/12/20); inter-patient as secondary,after split,validation,reference annotations,99.18
+Zhao [3],2025,Sensors,random beat-level (intra-patient stated),after split,validation,not reported,99.8
+Gader [32],2025,IEEE conference,random beat-level (75/25 stratified),none,validation,detector (XQRS),99.0
+Zaky [33],2026,Ingenierie des Systemes d'Information,random beat-level (intra-patient stated),after split,validation,not reported (fixed windows),98.77
+Kwak [34],2024,PeerJ Computer Science,random (80/10/10),after split,not reported,reference and detector compared,97.97
+Seenivasan [35],2025,Information Technology and Control,not reported (80/20 of beats),before split (SMOTE),not reported,reference annotations,99.2
